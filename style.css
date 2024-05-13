@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: rgb(18, 172, 215);
+    height: 75px;
+    color: white;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.choices img{
+    margin-left: 50px;
+    height: 250px;
+}
+
+.choices img:hover{
+    -webkit-filter:
+            drop-shadow(1px 1px 0 black)
+            drop-shadow(-1px -1px 0 black);
+    filter: drop-shadow(5px 0 0 black) 
+            drop-shadow(0 5px 0 black)
+            drop-shadow(-5px 0 0 black) 
+            drop-shadow(0 -5px 0 black);
+}
+
+.promt{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+.text{
+    padding: 10px;
+    display: inline;
+    border-radius: 30px;
+    font-size: 30px;
+    background-color: rgb(18, 172, 215);
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 480px;
+    padding-left: 80px;
+    margin-top: 50px;
+}
+
+.new-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+button{
+    color: white;
+    padding: 8px;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: rgb(18, 172, 215);
+}
+
+button:hover{
+    opacity: 0.5;
+    transition: opacity 50ms;
+}
+
